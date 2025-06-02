@@ -153,5 +153,7 @@ docker build -t demo-django-app .
 
 # Kubernetes apply
 kubectl apply -f k8s/
+```
+![screenshot](https://github.com/user-attachments/assets/80484f14-439b-4f9d-93a0-5a8937211c0d)
 
 Copyright © 2023 Devsu. All rights reserved.
