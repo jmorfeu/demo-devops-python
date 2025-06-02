@@ -135,5 +135,23 @@ If the user id does not exist, we will receive status 404 and the following mess
 ```
 
 ## License
+# DevOps Technical Test - Django App
+
+## Descripción
+Aplicación de prueba para evaluación DevOps. Este repositorio contiene:
+
+- Aplicación Django REST.
+- Dockerización lista para producción.
+- Manifiestos Kubernetes para despliegue en clúster local o en la nube.
+- Pipeline CI/CD automatizado (GitHub Actions).
+
+## Instrucciones rápidas
+
+```bash
+# Docker build
+docker build -t demo-django-app .
+
+# Kubernetes apply
+kubectl apply -f k8s/
 
 Copyright © 2023 Devsu. All rights reserved.
